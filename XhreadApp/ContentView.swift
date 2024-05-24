@@ -114,7 +114,7 @@ struct ContentView: View {
         context.delete(post)
     }
 
-    // データのアップデート
+//     データのアップデート
 //    private func update() {
 //
 //    }

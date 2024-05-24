@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import XhreadApp
+@testable import Xhread
 
 final class XhreadAppTests: XCTestCase {
 

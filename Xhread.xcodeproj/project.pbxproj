@@ -43,13 +43,13 @@
 		2F5494872B3DBA4100CAFF70 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		2F5494892B3DBA9600CAFF70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F54948C2B3DDD4800CAFF70 /* CalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutView.swift; sourceTree = "<group>"; };
-		2FA99A9C2B3D51FB00CED5BA /* XhreadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XhreadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA99A9C2B3D51FB00CED5BA /* Xhread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xhread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA99AA12B3D51FB00CED5BA /* PrevContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevContentView.swift; sourceTree = "<group>"; };
 		2FA99AA32B3D51FD00CED5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA99AA62B3D51FD00CED5BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2FA99AAC2B3D51FE00CED5BA /* XhreadAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XhreadAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA99AAC2B3D51FE00CED5BA /* XhreadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XhreadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA99AB02B3D51FE00CED5BA /* XhreadAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XhreadAppTests.swift; sourceTree = "<group>"; };
-		2FA99AB62B3D51FE00CED5BA /* XhreadAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XhreadAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA99AB62B3D51FE00CED5BA /* XhreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XhreadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA99ABA2B3D51FE00CED5BA /* XhreadAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XhreadAppUITests.swift; sourceTree = "<group>"; };
 		2FA99ABC2B3D51FE00CED5BA /* XhreadAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XhreadAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,9 +101,9 @@
 		2FA99A9D2B3D51FB00CED5BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FA99A9C2B3D51FB00CED5BA /* XhreadApp.app */,
-				2FA99AAC2B3D51FE00CED5BA /* XhreadAppTests.xctest */,
-				2FA99AB62B3D51FE00CED5BA /* XhreadAppUITests.xctest */,
+				2FA99A9C2B3D51FB00CED5BA /* Xhread.app */,
+				2FA99AAC2B3D51FE00CED5BA /* XhreadTests.xctest */,
+				2FA99AB62B3D51FE00CED5BA /* XhreadUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FA99A9B2B3D51FB00CED5BA /* XhreadApp */ = {
+		2FA99A9B2B3D51FB00CED5BA /* Xhread */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA99AC02B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadApp" */;
+			buildConfigurationList = 2FA99AC02B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "Xhread" */;
 			buildPhases = (
 				2FA99A982B3D51FB00CED5BA /* Sources */,
 				2FA99A992B3D51FB00CED5BA /* Frameworks */,
@@ -162,16 +162,16 @@
 			);
 			dependencies = (
 			);
-			name = XhreadApp;
+			name = Xhread;
 			packageProductDependencies = (
 			);
 			productName = VoidProject;
-			productReference = 2FA99A9C2B3D51FB00CED5BA /* XhreadApp.app */;
+			productReference = 2FA99A9C2B3D51FB00CED5BA /* Xhread.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FA99AAB2B3D51FE00CED5BA /* XhreadAppTests */ = {
+		2FA99AAB2B3D51FE00CED5BA /* XhreadTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA99AC32B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadAppTests" */;
+			buildConfigurationList = 2FA99AC32B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadTests" */;
 			buildPhases = (
 				2FA99AA82B3D51FE00CED5BA /* Sources */,
 				2FA99AA92B3D51FE00CED5BA /* Frameworks */,
@@ -182,14 +182,14 @@
 			dependencies = (
 				2FA99AAE2B3D51FE00CED5BA /* PBXTargetDependency */,
 			);
-			name = XhreadAppTests;
+			name = XhreadTests;
 			productName = VoidProjectTests;
-			productReference = 2FA99AAC2B3D51FE00CED5BA /* XhreadAppTests.xctest */;
+			productReference = 2FA99AAC2B3D51FE00CED5BA /* XhreadTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2FA99AB52B3D51FE00CED5BA /* XhreadAppUITests */ = {
+		2FA99AB52B3D51FE00CED5BA /* XhreadUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA99AC62B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadAppUITests" */;
+			buildConfigurationList = 2FA99AC62B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadUITests" */;
 			buildPhases = (
 				2FA99AB22B3D51FE00CED5BA /* Sources */,
 				2FA99AB32B3D51FE00CED5BA /* Frameworks */,
@@ -200,9 +200,9 @@
 			dependencies = (
 				2FA99AB82B3D51FE00CED5BA /* PBXTargetDependency */,
 			);
-			name = XhreadAppUITests;
+			name = XhreadUITests;
 			productName = VoidProjectUITests;
-			productReference = 2FA99AB62B3D51FE00CED5BA /* XhreadAppUITests.xctest */;
+			productReference = 2FA99AB62B3D51FE00CED5BA /* XhreadUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FA99A972B3D51FB00CED5BA /* Build configuration list for PBXProject "XhreadApp" */;
+			buildConfigurationList = 2FA99A972B3D51FB00CED5BA /* Build configuration list for PBXProject "Xhread" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FA99A9B2B3D51FB00CED5BA /* XhreadApp */,
-				2FA99AAB2B3D51FE00CED5BA /* XhreadAppTests */,
-				2FA99AB52B3D51FE00CED5BA /* XhreadAppUITests */,
+				2FA99A9B2B3D51FB00CED5BA /* Xhread */,
+				2FA99AAB2B3D51FE00CED5BA /* XhreadTests */,
+				2FA99AB52B3D51FE00CED5BA /* XhreadUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		2FA99AAE2B3D51FE00CED5BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FA99A9B2B3D51FB00CED5BA /* XhreadApp */;
+			target = 2FA99A9B2B3D51FB00CED5BA /* Xhread */;
 			targetProxy = 2FA99AAD2B3D51FE00CED5BA /* PBXContainerItemProxy */;
 		};
 		2FA99AB82B3D51FE00CED5BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FA99A9B2B3D51FB00CED5BA /* XhreadApp */;
+			target = 2FA99A9B2B3D51FB00CED5BA /* Xhread */;
 			targetProxy = 2FA99AB72B3D51FE00CED5BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -447,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -465,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = borley1211.XhreadApp;
+				PRODUCT_BUNDLE_IDENTIFIER = borley1211.Xhread;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -479,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XhreadApp/Preview Content\"";
@@ -496,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = borley1211.XhreadApp;
+				PRODUCT_BUNDLE_IDENTIFIER = borley1211.Xhread;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -519,7 +521,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XhreadApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XhreadApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xhread.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xhread";
 			};
 			name = Debug;
 		};
@@ -538,7 +540,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XhreadApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XhreadApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xhread.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xhread";
 			};
 			name = Release;
 		};
@@ -579,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FA99A972B3D51FB00CED5BA /* Build configuration list for PBXProject "XhreadApp" */ = {
+		2FA99A972B3D51FB00CED5BA /* Build configuration list for PBXProject "Xhread" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FA99ABE2B3D51FE00CED5BA /* Debug */,
@@ -588,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FA99AC02B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadApp" */ = {
+		2FA99AC02B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "Xhread" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FA99AC12B3D51FE00CED5BA /* Debug */,
@@ -597,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FA99AC32B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadAppTests" */ = {
+		2FA99AC32B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FA99AC42B3D51FE00CED5BA /* Debug */,
@@ -606,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FA99AC62B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadAppUITests" */ = {
+		2FA99AC62B3D51FE00CED5BA /* Build configuration list for PBXNativeTarget "XhreadUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FA99AC72B3D51FE00CED5BA /* Debug */,
