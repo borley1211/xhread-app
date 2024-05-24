@@ -1,13 +1,13 @@
 //
-//  VoidProjectUITests.swift
-//  VoidProjectUITests
+//  XhreadAppUITests.swift
+//  XhreadAppUITests
 //
 //  Created by Miebori Kazuma on 2023/12/28.
 //
 
 import XCTest
 
-final class VoidProjectUITests: XCTestCase {
+final class XhreadAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

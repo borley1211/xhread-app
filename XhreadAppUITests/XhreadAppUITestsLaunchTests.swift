@@ -1,13 +1,13 @@
 //
-//  VoidProjectUITestsLaunchTests.swift
-//  VoidProjectUITests
+//  XhreadAppUITestsLaunchTests.swift
+//  XhreadAppUITests
 //
 //  Created by Miebori Kazuma on 2023/12/28.
 //
 
 import XCTest
 
-final class VoidProjectUITestsLaunchTests: XCTestCase {
+final class XhreadAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
