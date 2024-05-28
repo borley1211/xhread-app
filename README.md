@@ -1,4 +1,4 @@
 # Xhread.app - a simple SNS app to learn Swift
 
-![Demo](img/xhread-app_demo.mp4)
+![Screenshot](./img/xhread-app_ss_0-default.png)
 
