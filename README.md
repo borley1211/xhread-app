@@ -1,3 +1,3 @@
 # Xhread.app - a simple SNS app to learn Swift
 
-![Demo](https://github.com/borley1211/xhread-app/assets/47778507/d6fcfea5-f21c-40bd-8deb-38149006df20)
+![xhread-app_ss_00-default](https://github.com/borley1211/xhread-app/assets/47778507/053fa471-f4b9-48f1-a9f5-dd1da1f9f352)
